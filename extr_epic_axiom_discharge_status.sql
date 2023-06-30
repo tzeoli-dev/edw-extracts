@@ -16,6 +16,7 @@ MM/DD/CCYY OPID Change# Assoc Ticket# Change Description
 
 ---------- ------ ---------- ------------- -------------------------------------------
 06/18/2023 NTK13C N/A        N/A           Conversion to Snowflake
+06/30/2023 AJZABC N/A        N/A           TESTING CHANGES IN BUGFIX BRANCH!!!!!!!!!!!!!!!!!!!
 */
 select ps.PAT_STATUS_C as DischargeStatus ,ps.ABBR as Description ,ps.NAME as LongDescription ,ps.INTERNAL_ID as DischargeStatus_Internal_ID 
 from clarity.ZC_MC_PAT_STATUS ps
